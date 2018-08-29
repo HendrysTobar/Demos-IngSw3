@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StillSet Nombre="StillSetInicio" AudioFondo ="Sonidos/OOTFS.mp3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./StillSet.xsd">
+    <Stills>       
+        <Still Nombre="Still3" Imagen ="IntroStill1.jpg" ArchivoSonido ="Sonidos/Narraciones/Narracion 1.wav">
+            <Texto>
+Hace mas de 25 anos, cuando todas las personas se preparaban para el
+feliz dia de inauguracion del carnaval de aquel ano. Llegaron noticias
+lejanas por boca de un mensajero a oidos del alcalde, diciendo que en
+los pueblos del norte habian sucedido cosas extranas. Muchos de sus
+habitantes estaban sufriendo una clase de enfermedad desconocida que
+despues de un tiempo habia cobrado la vida de varias personas… </Texto>
+            <PosTexto>
+                <x>
+                    30
+                </x>
+                <y>
+                    50
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still4" Imagen ="IntroStill1.jpg" ArchivoSonido ="Sonidos/Narraciones/Narracion 2.mp3">
+            <Texto>
+Con la extrana enfermedad habia llegado tambien un brujo curandero
+llamado Kash; que decia que tenia el poder de curarlos a todos y que
+nadie mas tendria que sufrir. Los alcaldes de los pueblos atonitos por
+aquella enfermedad que cada dia se veia mas como una peste decidieron
+dar todos los recursos a su alcance para que aquel brillante brujo los
+salvara. Sin embargo, a medida que el brujo actuaba y daba instrucciones
+a los habitantes para que hicieran y dejaran de hacer ciertas cosas como
+habitos de salud y de limpieza, las personas de aquellos lugares enfermaban
+cada dia mas y mas… </Texto>
+            <PosTexto>
+                <x>
+                    30
+                </x>
+                <y>
+                    50
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still6" Imagen ="IntroStill1.jpg" ArchivoSonido ="Sonidos/Narraciones/Narracion 3.mp3">
+            <Texto>
+Kash tomo el poder de cientos de pueblos, y asi poco a poco durante un
+largo tiempo fue tornandose cada dia mas poderoso hasta que no hubo mas
+que ocultar. En vez de evitar que la gente enfermara, estaba causando
+que aquella peste se extendiera mas y mas. En su malevola busqueda de
+crear un imparable imperio, creo de si mismo cientos de subditos
+similares a el, formando un enorme ejercito encargado de fomentar
+el crecimiento de aquella terrible enfermedad, su nombre fue
+desvelado: La tuberculosis.</Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>       
+        <Still Nombre="Still10" Imagen ="IntroStill1.jpg" ArchivoSonido ="Sonidos/Narraciones/Narracion 4.mp3">
+            <Texto>
+Sin embargo esta historia en realidad no trata de como las personas
+se resignaron a vivir bajo el malevolo imperio de Kash. Por el contrario,
+se trata de la esperanza que aun existe en los corazones de muchos,
+particularmente en una pequena familia que a escondidas del emperador
+y de manera ilegal a sus mandatos, mantiene bajo su casa una pequena
+enfermeria donde una bella mujer viuda de la guerra, con ayuda de su
+padre veterano de guerra y su pequeno e inteligente hijo Simon de
+trece anos, asisten a los enfermos mas graves, con la finalidad de
+hacerles mas llevaderos sus dias a pesar de desconocer las causas y el
+tratamiento para la enfermedad. </Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+    </Stills>    
+</StillSet>

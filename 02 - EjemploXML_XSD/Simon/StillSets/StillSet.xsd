@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="StillSet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Stills" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Still" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Texto" type="xs:string" minOccurs="1" />
+                    <xs:element name="PosTexto" minOccurs="1" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="x" type="xs:int" minOccurs="1" />
+                          <xs:element name="y" type="xs:int" minOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Nombre" type="xs:string" />
+                  <xs:attribute name="Imagen" type="xs:string" />
+                  <xs:attribute name="ArchivoSonido" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="Nombre" type="xs:string" />
+      <xs:attribute name="AudioFondo" type="xs:string" />
+    </xs:complexType>
+  </xs:element>  
+</xs:schema>

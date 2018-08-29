@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StillSet Nombre="StillSetLLegaOrah" AudioFondo ="Sonidos/OOTFS.mp3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./StillSet.xsd">
+    <Stills>
+        <Still Nombre="Still1" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SIMON:
+Listo mama, aqui estoy con Don Nicolas como me lo pediste.
+
+ESPERANZA:
+muy bien Simon, entra rapido antes de que algun guardia nos vea!
+            </Texto>
+            <PosTexto>
+                <x>
+                   10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still2" Imagen ="IntroStill2.jpg" ArchivoSonido ="">
+            <Texto>DON NICOLAS: muchas gracias Dona Esperanza... coff, coff… no se
+imagina lo agradecido que estoy con usted.
+
+Sabe una cosa, de la cual me di cuenta!!! Note que la enfermedad se
+propagaba mas aun en grupos de personas INDIGENTES y DROGADICTAS!!!
+No se por que ni cual será la razón!!
+
+ABUELO: Siga Don Nicolas, por aqui por estas gradas hacia abajo.
+
+            </Texto>
+            <PosTexto>
+                
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still3" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SIMON: Mama, tengo un raro presentimiento… Cuando pasabamos
+por el camino habia un soldado que me dejo pasar, sin embargo
+cuando volviamos ya no estaba… tu sabes que ellos no suelen 
+dejar sus guardias.
+
+ESPERANZA: Que extrano… espero que no suceda nada ma….
+
+            </Texto>
+            <PosTexto>
+                <x>
+                    30
+                </x>
+                <y>
+                    50
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still4" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SOLDADO: Por fin los hemos descubierto... ATRAPENLOS!
+            </Texto>
+            <PosTexto>
+                <x>
+                    30
+                </x>
+                <y>
+                    50
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still5" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+ESPERANZA: Simon Huye!!! Salvate hijo mio no te
+preocupes por nosotros!
+
+SIMON: abuelo!... Mama!... NOOOooo...
+
+            </Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still6" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SIMON: Sniff, sniff… todo esto es mi culpa, ese guardia
+me estaba siguiendo… con razon los demas nunca me
+detuvieron. Todo era una trampa!
+            </Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still7" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SIMON: Papa… desde el cielo te ruego que me ayudes!...
+            </Texto>
+            <PosTexto>
+                
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still8" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SIMON: sniff, sniff… No se que hacer, ahora estamos
+todos perdidos… sniff, sniff… por todos los cielos
+papa tu que estas viendome.. ayudame!!
+            </Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still9" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+ORAH: Todo no esta perdido pequeno Simon… Tus ruegos
+han sido escuchados en todos los rincones del Cielo
+y te han dado la oportunidad de salvar a tu pueblo…
+Debes ser muy valiente y estar atento a cualquier
+pista o mensaje que las estrellas pongan en tu camino.
+            </Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+        <Still Nombre="Still10" Imagen ="IntroStill1.jpg" ArchivoSonido ="">
+            <Texto>
+SIMON: Tu quien eres!?!
+
+ORAH: Mi nombre es Orah, soy la eterna encargada del
+tiempo, y ahora voy a ser quien te va a ayudar en
+tu busqueda por la salvacion de tu gente… Es hora de
+que nos vamos de este lugar, ven pequeno en el camino
+te ire contando que vamos a hacer.
+            </Texto>
+            <PosTexto>
+                <x>
+                    10
+                </x>
+                <y>
+                    10
+                </y>
+            </PosTexto>
+        </Still>
+    </Stills>    
+</StillSet>

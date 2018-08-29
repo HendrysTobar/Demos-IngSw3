@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Guion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./guion.xsd">
+	<GuionPart Tipo ="playStillSet" Argumentos ="StillSetInicio"/>
+    <GuionPart Tipo ="playMundo" Argumentos ="Mundos/SanJoseDeLasPiedras1.xml"/>
+    <GuionPart Tipo ="playMundo" Argumentos ="Mundos/SanJoseDeLasPiedras2.xml"/>
+    <GuionPart Tipo ="playStillSet" Argumentos ="StillSetLLegaOrah"/>
+    <GuionPart Tipo ="playMundo" Argumentos ="Mundos/SanJoseDeLasPiedras3.xml"/>
+    <GuionPart Tipo ="playMundo" Argumentos ="Mundos/SanJoseDeLasPiedras4.xml"/>
+    <GuionPart Tipo="gameOver"/>
+
+</Guion>

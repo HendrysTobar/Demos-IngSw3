@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Guion" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Guion">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="GuionPart">
+                    <xs:complexType>
+                        <xs:attribute name="Tipo">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="playStillSet" />
+                                    <xs:enumeration value="playMundo" />
+                                    <xs:enumeration value="gameOver" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="Argumentos" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

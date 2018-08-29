@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroe>  
+  <Nombre>Legolas</Nombre>
+  <PV>20</PV>
+  <Escudo nombre ="Brazo de Piedranegra" defensa="10"/>
+</Heroe>
