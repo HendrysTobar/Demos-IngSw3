@@ -1,0 +1,16 @@
+body {
+}
+
+
+.contenedor 
+{
+    display:  block;
+    background-color: #0094ff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    alignment-adjust: central;
+    text-align: center;
+           
+
+}
