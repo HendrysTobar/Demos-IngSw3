@@ -1,0 +1,66 @@
+body
+{
+    /*Cambie la fuente a una que le agrade*/
+}
+
+#fondo
+{
+    /*cambie el color del fondo a uno que les agrade*/
+    background-color: black;  
+    /*ancho y alto es width y height*/
+    width: 500px;
+    /*¿Cómo se redondean los bordes?*/
+    /*border-...*/
+    /*¿Qué hace esto?*/
+    overflow: auto;
+}
+
+#titulo
+{
+    color: white;
+    text-align: center;
+    float: inline-start;
+}
+
+#imagen
+{
+    /*ponga un margen de 10 pixeles a la imagen*/
+    /*margin*/
+    /*Esto hace que se pegue a la izquierda*/
+    float: left;
+    background-color: white;
+    
+}
+
+#foto
+{
+    
+    /*Width y margin están mal, por eso la imagen no cuadra*/
+    width: 150%;
+    height:auto;
+    
+    margin: 15%;
+    
+    background-color: white;
+    
+}
+
+#integrantes
+{
+    border-radius: 10px;
+    margin: 10px;   
+    color: white;
+    background-color: blue;    
+    float:right;     
+    
+   
+}
+li
+{
+    margin: 1%;    
+}
+
+.tituloInterno
+{
+    text-align: center
+}
