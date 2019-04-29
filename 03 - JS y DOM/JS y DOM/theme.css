@@ -1,13 +1,38 @@
+.global
+{
+    overflow:visible;
+}
 .centrado
 {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
-    text-align: center
+    text-align: center;  
+    overflow:auto;  
+    font-size:30px;
 }
 
 .imagen
 {    
     width:100%;    
+}
+
+@media  screen and (max-width: 600px)
+{
+    h1{
+        
+        color:red;
+    }
+    .centrado
+    {
+        margin: auto;
+        width: 100%;
+        border: 3px solid green;
+        padding: 10px;
+        text-align: center;  
+        overflow:visible;  
+        font-size:40px;
+        box-sizing:border-box;
+    }
 }
