@@ -1,10 +1,25 @@
+.global
+{
+    overflow:visible;
+}
+
+.carta
+{
+    background-image: url('piedras.jpg');
+}
+
+.caja 
+{
+    background-color: white;
+}
 .centrado
 {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
-    text-align: center
+    text-align: center;  
+    overflow:auto;     
 }
 
 .imagen
@@ -13,20 +28,20 @@
 }
 
 
-.verde
+@media  screen and (max-width: 600px)
 {
-    background: green;
-    position: relative;
-    top: -250px;
-    bottom: 150px;    
-    right: 40%;
-    left: 40%;
-}
+    h1{        
+        color:red;
+    }
 
-.azul
-{
-    background: blue;  
-    color: white;
-    font-size: xx-large;
-    font-family: fantasy;  
+    .centrado
+    {
+        margin: auto;
+        width: 100%;
+        border: 3px solid green;
+        padding: 10px;
+        text-align: center;  
+        overflow:visible;  
+        box-sizing:border-box;
+    }
 }

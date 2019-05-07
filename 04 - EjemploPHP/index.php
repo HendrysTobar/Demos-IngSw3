@@ -103,6 +103,9 @@ $cartas[1]->setTexto("El dragón Shivano destruyó la economía de Wariburgo al 
 $cartas[2] = new Carta(1,'Ángel de Esperanza', 'angel.jpg');
 $cartas[2]->setTexto("El Ángel de Esperanza trajo alegría y solidaridad entre la gente de Wariburgo");
 
+
+
+
 $c = $cartas[0];
 if(isset($_GET["cartas"]))
 {
@@ -133,42 +136,40 @@ else
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device, initial-scale=1"/>
     <title>Página web con Server Side Scripting</title>
     <link rel="stylesheet" type="text/css" href="theme.css">
     <script src="arruinador.js"></script>
 
 </head>
 <body>
-<?php if($c != null):?>
-    <div class="centrado">
-        <div class="azul">
-        <?php echo $c->getNombre(); ?>
-        </div>
-          
+    <?php if($c != null):?>
+        <div class="centrado carta">
+            <div class="centrado caja">
+                <h1><?php echo $c->getNombre(); ?></h1>
+            </div>     
 
-            <img class="centrado" src="<?php echo $c->getImg()?>"/>
-       
-
-        <p class="centrado"> 
+            <img class="centrado caja" src="<?php echo $c->getImg()?>"/>
+            <p class="centrado caja"> 
                 <?php echo $c->getTexto()?>
-        </p>
-        
-        <form class = "centrado" method="get">
-            <select name="cartas" onchange="this.form.submit()">
-                <option value"0"> --Seleccione--</option>
-                <option value="0">Bola</option>
-                <option value="1">Dragón</option>
-                <option value="2">Ángel</option>                
-            </select>
+            </p>
             
-        </form>
-    
-        <p class="centrado"> 
-                Sitio web creado dinámicamente con la carta solicitada, usando PHP
-        </p>    
+            <form class = "centrado caja" method="get">
+                <select name="cartas" onchange="this.form.submit()">
+                    <option value"0"> --Seleccione--</option>
+                    <option value="0">Bola</option>
+                    <option value="1">Dragón</option>
+                    <option value="2">Ángel</option>                
+                </select>
+                
+            </form>
         
-    </div>   
-<?php endif;?>
+            <p class="centrado caja"> 
+                    Sitio web creado dinámicamente con la carta solicitada, usando PHP
+            </p>    
+            
+        </div>   
+    <?php endif;?>
 
 </body>
 </html>
