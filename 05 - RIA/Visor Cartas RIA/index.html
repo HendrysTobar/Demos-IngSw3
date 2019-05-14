@@ -1,43 +1,51 @@
-﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Página web con Server Side Scripting</title>
-    <link rel="stylesheet" type="text/css" href="theme.css">
+    <meta name="viewport" content="width=device, initial-scale=1"/>
+    <title>Visor de Cartas con RIA tomando datos en XML</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">    
     <script src="CartasAJAX.js"></script>
 
 
 </head>
 <body>
 
-    <div class="centrado">
-        <div id="cardName" class="azul">
-            Card Name
-        </div>
-          
-
-            <img id="cardImg" class="centrado" src="fireball.jpg"/>
        
+    <div class="centrado carta">
+        <div id="cardName" class="centrado caja">
+            Nombre de la carta
+        </div>     
 
-        <p id="cardTexto" class="centrado"> 
-                Texto
+        <img id="loading" class="centrado caja loading" src="loading.gif"/>
+        <img id="cardImg" class="centrado caja" src="./img/fireball.jpg"/>
+        <p id="cardTexto" class="centrado caja"> 
+            Texto de la carta
         </p>
         
-        <form class = "centrado" method="get">
-            <select name="cartas" onchange="loadDoc(this.value)">
-                <option value"0"> --Seleccione--</option>
-                <option value="0">Bola</option>
-                <option value="1">Dragón</option>
-                <option value="2">Ángel</option>                
-                <option value="3">Flor</option>
-            </select>
-            
-        </form>
-    
-        <p class="centrado"> 
-                Sitio web creado dinámicamente con la carta solicitada usando RIA. La carta proviene de un archivo en XML
-        </p>    
+        <form class = "centrado caja" method="get">
+                <select name="cartas" onchange="loadDoc(this.value)">
+                    <option value"0"> --Seleccione--</option>
+                    <option value="0">Bola</option>
+                    <option value="1">Dragón</option>
+                    <option value="2">Ángel</option>                
+                    <option value="3">Flor</option>
+                </select>
+                
+            </form>
+        
+            <p class="centrado caja"> 
+                    Sitio web creado dinámicamente con la carta solicitada usando RIA. La carta proviene de un archivo en XML
+            </p>    
         
     </div>   
+
+
+
+
+   
 
 
 </body>

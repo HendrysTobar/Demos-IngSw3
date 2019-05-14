@@ -1,0 +1,26 @@
+<Cartas>
+    <Carta>
+        <Numero>0</Numero>
+        <Nombre>Bola de fuego</Nombre>
+        <Imagen>fireball.jpg</Imagen>
+        <Texto>Esta Bola de Fuego destruye a todos los oponentes en el campo de batalla</Texto>
+    </Carta>
+    <Carta>
+        <Numero>1</Numero>
+        <Nombre>Dragon Shivano</Nombre>
+        <Imagen>dragon.jpg</Imagen>
+        <Texto>El dragón Shivano destruyó la economía de Wariburgo al robar todas las monedas de oro</Texto>
+    </Carta>
+    <Carta>
+        <Numero>2</Numero>
+        <Nombre>Ángel de Esperanza</Nombre>
+        <Imagen>angel.jpg</Imagen>
+        <Texto>El Ángel de Esperanza trajo alegría y solidaridad entre la gente de Wariburgo</Texto>
+    </Carta>
+    <Carta>
+        <Numero>3</Numero>
+        <Nombre>Flor Negra</Nombre>
+        <Imagen>flornegra.jpg</Imagen>
+        <Texto>La Flor negra ha engañado a muchos con su apariencia</Texto>
+    </Carta>
+</Cartas>

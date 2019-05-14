@@ -1,0 +1,26 @@
+[
+  {
+    "numero": 0,
+    "nombre": "Bola de fuego",
+    "img": "fireball.jpg",
+    "texto": "Esta Bola de Fuego destruye a todos los oponentes en el campo de batalla"
+  },
+  {
+    "numero": 1,
+    "nombre": "Dragon Shivano",
+    "img": "dragon.jpg",
+    "texto": "El dragón Shivano destruyó la economía de Wariburgo al robar todas las monedas de oro"
+  },
+  {
+    "numero": 2,
+    "nombre": "Ángel de Esperanza",
+    "img": "angel.jpg",
+    "texto": "El Ángel de Esperanza trajo alegría y solidaridad entre la gente de Wariburgo"
+  },
+  {
+    "numero": 3,
+    "nombre": "Flor Negra",
+    "img": "flornegra.jpg",
+    "texto": "La Flor negra ha engañado a muchos con su apariencia"
+  }
+]

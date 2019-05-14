@@ -5,12 +5,23 @@
 
 .carta
 {
-    background-image: url('piedras.jpg');
+    background-image: url('./img/piedras.jpg');
 }
 
 .caja 
 {
     background-color: white;
+}
+.caja.titulo
+{
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;    
+}
+
+.caja.footer
+{
+    font-size: xx-small;
 }
 .centrado
 {
@@ -27,9 +38,9 @@
     width:100%;    
 }
 
-.loading
+.snippet
 {
-    display:none;
+    display: none;
 }
 
 
