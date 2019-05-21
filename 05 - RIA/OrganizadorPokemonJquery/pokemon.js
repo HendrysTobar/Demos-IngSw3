@@ -6,6 +6,12 @@ window.onload = function(){
         console.log("añadido "+ element);
         
     });
+
+    //Hace que el contenedor de pokemones sea organizable,
+    //Cuando se suelta el pokemon se lanza la función soltarPokemon
+    $("#listaPokemones").sortable({update:soltarPokemon});
+    $("#listaPokemones").disableSelection();
+
     
 }
 
@@ -20,9 +26,15 @@ function AgregarPokemon(pokemon)
     name.html(pokemon);
     newPokemon.removeClass("snippet");
 
-    newPokemon.draggable();
-    newPokemon.appendTo("#listaPokemones");
     
+    newPokemon.appendTo("#listaPokemones");
 
     
 }
+
+function soltarPokemon(event, ui)
+{
+    new Audio("snd/12.mp3").play();
+
+}
+

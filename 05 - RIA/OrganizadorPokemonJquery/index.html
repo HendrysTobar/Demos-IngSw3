@@ -9,12 +9,21 @@
     <!-- Also include jQueryUI -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="pokemon.js"></script>
-    <title>Document</title>
+    <title>Organizador de Pokemones</title>
 
     
 </head>
 <body>
+    <div class="centrado">
+        <h1>Organizador de Pokemones</h1>
+    </div>
+    <div>
+        <p>Estos son tus pokemones, arrastra para organizarlos</p>
 
+        <!--Los Pokemones son cargados desde un array estático en el archivo Pokemon.js-->
+        <!--Su trabajo consiste en solicitar los datos al back end con los pokemones definidos en el JSON-->
+        <!--Además, el sistema actual permite que se arrastren los pokemones para organizarlos. Usted debe enviar esa información al servidor-->
+    </div>
     <div class="centrado" id="listaPokemones">
         <div class="snippet pokemon" id="snippetPokemon">
             <img class="picture" src="img/pokebola.png" alt=""/>
@@ -22,7 +31,6 @@
                 <span id="nombre" >Pokemon</span>
             </div>
         </div>
-
     </div>
 
 
