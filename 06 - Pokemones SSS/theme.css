@@ -2,15 +2,24 @@
 {
     overflow:visible;
 }
+
+.carta
+{
+    background-image: url('piedras.jpg');
+}
+
+.caja 
+{
+    background-color: white;
+}
 .centrado
 {
     margin: auto;
-    width: 80%;
+    width: 50%;
     border: 3px solid green;
     padding: 10px;
     text-align: center;  
-    overflow:auto;  
-    font-size:30px;
+    overflow:auto;     
 }
 
 .imagen
@@ -21,10 +30,10 @@
 
 @media  screen and (max-width: 600px)
 {
-    h1{
-        
+    h1{        
         color:red;
     }
+
     .centrado
     {
         margin: auto;
@@ -33,7 +42,6 @@
         padding: 10px;
         text-align: center;  
         overflow:visible;  
-        font-size:40px;
         box-sizing:border-box;
     }
 }
